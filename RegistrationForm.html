@@ -20,6 +20,27 @@
         <div>
             <input type="checkbox" name="terms" id="terms">
         </div>
+        <div>
+            <label for="referral">Where did you hear about us?</label>
+            <select name="referral" id="referral">
+                <option value="0">--Please choose--</option>
+                <optiongroup label="Search Engine">
+                    <option value="Google">Google</option>
+                    <option value="Yahoo">Yahoo!</option>
+                    <option value="MSN">MSN</option>
+                    <option value="Other Search Engine">Other</option>
+                </optiongroup>
+                <option value="wom">Word of Mouth</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+    </div>
+    <label for="comments">Comments:</label><br>
+      <textarea name="comments" id="comments" cols="40" rows="4"></textarea>
+    </div>
+    <div>
+      <input type="submit" name="submitbutton" id="submitbutton" value="Register">
+      <input type="reset" name="resetbutton" id="resetbutton">
     </div>
     </form>
 </body>
